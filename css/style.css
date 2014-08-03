@@ -1,5 +1,6 @@
 @charset 'UTF-8';
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
 /*********************************************************************************/
@@ -27,12 +28,16 @@
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #39454b;
+		/*color: #fff;*/
 		letter-spacing: 0.5px;
 	}
 
+
 	h1,h2,h3,h4,h5,h6 {
-		font-weight: 900;
+		/*font-family: 'Open Sans', sans-serif;*/
+		font-weight: 500;
 		color: inherit;
+
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -466,15 +471,19 @@
 			position: relative;
 			margin: 0;
 			overflow-x: hidden;
+			/*background: linear-gradient(45deg, #e25656, #e23030, #903030);*/
+			/*background: #903030;*/
 		}
 		
 			.main.style1 {
 				text-align: center;
 				padding: 10em 0 10em 0;
+
 			}
 			
 				.main.style1 h2 {
 					font-size: 4.25em;
+					color: #fff;
 					line-height: 1em;
 					letter-spacing: -4px;
 				}
@@ -1029,15 +1038,21 @@
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: #fff;
-		background: rgba(255,255,255,0.95);
+		/*background: #fff;
+		background: rgba(255,255,255,0.95);*/
 		height: 3em;
 		line-height: 3em;
-		box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
+		/*box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);*/
 	}
 	
 	body {
-		padding-top: 3em;
+		/*padding-top: 3em;*/
+	}
+
+	a {
+		text-decoration: none;
+		color: #2c3e50;
+
 	}
 
 	#logo {
@@ -1086,9 +1101,10 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('images/overlay.png'), url('../images/intro.jpg');
+		/*background: url('images/overlay.png'), url('../images/intro.jpg');*/
 		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
+		background: #e67e22;
+		/*background-attachment: fixed, fixed;*/
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
@@ -1098,9 +1114,10 @@
 /*********************************************************************************/
 
 	#one {
-		background: url('images/overlay.png'), url('../images/one.jpg');
+		/*background: url('images/overlay.png'), url('../images/one.jpg');*/
+		background: #c0392b;
 		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
+		/*background-attachment: fixed, fixed;*/
 		background-position: top left, center center;
 	}
 
@@ -1109,7 +1126,8 @@
 /*********************************************************************************/
 
 	#two {
-		background: url('images/overlay.png'), url('../images/two.jpg');
+		/*background: url('images/overlay.png'), url('../images/two.jpg');*/
+		background: #2ecc71;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -1223,7 +1241,7 @@
 		height: 5em;
 		line-height: 5em;
 		margin: 0;
-		background: #39454b;
+		background: #2c3e50;
 		color: #999;
 		color: rgba(185,186,187,0.5);
 		overflow: hidden;
@@ -1282,7 +1300,7 @@
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
 		padding-bottom: 3em;
-		box-shadow: 0 0.1em 0.15em 0 rgba(0,0,0,0.15);
+		/*box-shadow: 0 0.1em 0.15em 0 rgba(0,0,0,0.15);*/
 	}
 	
 		.poptrox-popup .loader {
@@ -1404,7 +1422,7 @@
 				width: 40px;
 				height: 40px;
 				border-radius: 100%;
-				box-shadow: inset 0 0 0 2px #fff;
+				/*box-shadow: inset 0 0 0 2px #fff;*/
 				background: url('images/poptrox-closer.svg') center center;
 				color: #fff !important;
 			}
