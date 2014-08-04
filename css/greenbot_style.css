@@ -1107,7 +1107,7 @@
 		/*background:#f39c12;
 		background:#e74c3c;
 		background:#d35400;*/
-		/*background: #2980b9;*/
+		background: #2980b9;
 		background:#e74c3c;
 		/*background-attachment: fixed, fixed;*/
 		background-position: top left, bottom center;
@@ -1121,12 +1121,12 @@
 	#one {
 		/*background: url('images/overlay.png'), url('../images/one.jpg');*/
 		/*background: #c0392b;*/
-		/*background:#e74c3c;*/
+		background:#e74c3c;
 		/*background:#f39c12;*/
 		/*background:#4B77BE;*/
-		/*background: #e74c3c;
+		background: #e74c3c;
 		background:#68C3A3;
-		background:#3498db;*/
+		background:#3498db;
 		background: #2980b9;
 		background-size: 256px 256px, cover;
 		/*background-attachment: fixed, fixed;*/
@@ -1142,8 +1142,8 @@
 		/*background: #2ecc71;*/
 		/*background: #2ecc71;*/
 		/*background:#6BB9F0;*/
-		/*background:#68C3A3;
-		background:#e74c3c;*/
+		background:#68C3A3;
+		background:#e74c3c;
 		background:#2ecc71;
 		/*background:#e67e22;*/
 		/*background:#f39c12;*/
