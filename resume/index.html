@@ -29,16 +29,9 @@
 </head>
 
 <body>
-        <script>window.onload=function() {location.href='#';};</script>
         <!-- KONAMI EATER EGG YAY -->
         <script type="text/javascript">
             var easter_egg = new Konami(function() { window.open("https://www.google.com/search?q=atari+breakout&espv=210&es_sm=91&source=lnms&tbm=isch&sa=X&ei=SvUsU4WKK47ooASm7oHACw&sqi=2&ved=0CAcQ_AUoAQ&biw=1161&bih=537#imgdii=_")});
-        </script>
-        	        <script>
-window.onload=function()
-{
-window.scrollTo(0,0);
-}
         </script>
 
 					<!-- Header -->
@@ -49,18 +42,19 @@ window.scrollTo(0,0);
 
 			</header>
 
-
 			<!-- Resume -->
 			<section id="resume" class="main style3 secondary">
 			<br></br>
 				<div class="content container">
 				<header>
-				<center><iframe src="https://docs.google.com/a/lawrencemurata.com/file/d/0B1igw_vQ2d-Ea1oxVEtvX1BaeE0/preview" width="99%" height="1000" onload="initialize"></iframe></center>
+				<center><iframe src="https://docs.google.com/a/lawrencemurata.com/file/d/0B1igw_vQ2d-Ea1oxVEtvX1BaeE0/preview" width="99%" height="1000" onload="initialize()"></iframe></center>
+				
+				<!--this hack isn't working... probably need to figure out how to execute the function AFTER the iframe has been loaded-->
 				<script>
 				function initialize()
 				{
-					alert("words");
 					window.scrollTo(0,0);
+					location.href='#';
 				}
 				</script>
 			</header>
