@@ -17,16 +17,17 @@
 
 		<title>Lawrence Lin Murata</title>
 
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.poptrox.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
 </head>
 
 <body>
@@ -36,9 +37,35 @@
             var easter_egg = new Konami(function() { window.open("https://www.google.com/search?q=atari+breakout&espv=210&es_sm=91&source=lnms&tbm=isch&sa=X&ei=SvUsU4WKK47ooASm7oHACw&sqi=2&ved=0CAcQ_AUoAQ&biw=1161&bih=537#imgdii=_")});
         </script>
 			
-        
+
+        <section id="cta" class="main style1">
+        <div class="animated-bg">
+            <div class="content">
+                <div id="large">
+                    <canvas id="draw"></canvas>
+                    <div class="container">
+              <!--      	                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                    	<h3>Hi</h3>
+                    </div>
+                </div>-->
+              		<header>
+						<h3>Lawrence Lin Murata</h3>
+					</header>
+					<p>I’m interested in developing technologies and ideas that can improve people’s lives</p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</section>
+    </section>
+
 			<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
+	<!--		<section id="intro" class="main style1 dark fullscreen">
 				<div class="content container small">
 					<header>
 						<h2>Lawrence Lin Murata</h2>
@@ -48,7 +75,7 @@
 						<a href="#one" class="button style2 down">More</a>
 					</footer>
 				</div>
-			</section>
+			</section>-->
 
 			<!-- Two: Who I am -->
 			<section id="one" class="main style2 right dark fullscreen">
@@ -152,7 +179,7 @@
 			</section>
 
 			<!--Hey there, if you're looking into the source code, you might as well be interested in checking out my resume at www.resume.lawrencemurata.com-->
-			
+
 			<!-- Footer -->
 			<footer id="footer">
 			
@@ -181,6 +208,10 @@
 					</ul>
 			</footer>
 
+		<script src="js/TweenLite.min.js"></script>
+    	<script src="js/rAF.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/animated-background.js"></script>
 	</body>
 	
 	<!-- Google Analytics-->
@@ -193,5 +224,8 @@
   ga('create', 'UA-49247758-1', 'lawrencemurata.com');
   ga('send', 'pageview');
 
+
+
 </script>
+
 </html>
