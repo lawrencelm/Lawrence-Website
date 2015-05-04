@@ -150,7 +150,7 @@
 	#cta #large { position: relative; width: 100%; min-height: 700px; background: #1c1c1c; overflow: hidden; background-size: cover; background-position: center center; z-index: 1;}
 	#cta canvas { min-height: 700px; }
 	#cta .container { text-align: center; position: absolute; margin: 0; padding: 0; top: 50%; left: 50%; z-index: 999; -webkit-transform: translate3d(-50%,-50%,0); transform: translate3d(-50%,-50%,0); }
-	#cta .animated-bg #large { background-image: url('../images/hubble-andromeda-fulld.jpg'); }
+	/*#cta .animated-bg #large { background-image: url('../images/hubble-andromeda-fulld.jpg'); }*/
 	#cta ul.social { list-style: none; width: 430px; margin-left: auto; margin-right: auto; padding-left: 0; padding-top: 100px; background: url(../img/social.png) center center no-repeat; }
 	#cta ul.social li { float: left; margin-left: 30px; border-radius: 50%; border: 2px solid #FFF; }
 	#cta ul.social li:first-child { float: left; margin-left: 0; }
