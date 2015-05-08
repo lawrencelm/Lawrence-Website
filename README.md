@@ -5,5 +5,5 @@ That's the code for www.lawrencemurata.com
 
 ### Interesting sub-domains:
 
-  * www.resume.lawrencemurata.com (same as www.lawrencemurata.com/resume)
+  * http://resume.lawrencemurata.com/ (resume page)
   * http://larry.lawrencemurata.com/ (Larry Bot, my own personal assistant)
