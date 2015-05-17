@@ -163,7 +163,7 @@
 	#cta ul.social li:hover { float: left; border-radius: 50%; border: 2px dashed #FFF; }
 	#cta ul.social li a:hover { cursor: pointer; display: block; padding: 15px; }
 	#cta ul.social li i:hover { color: #FFF; width: 1em; }
-	#cta h3 { clear: both; color: #FFF; padding-top: 10px; font-size: 72px; font-weight: normal; line-height: 1.5; }
+	#cta h3 { clear: both; color: #FFF; margin-top: -40px; font-size: 72px; font-weight: normal; line-height: 1.5; }
 	#cta a.btn { border-radius: 4px; display: block; margin-top: 20px; background-color: #27ae60; text-align: center; cursor: pointer; }
 	#cta a.btn:hover,
 	#cta a.btn:focus { text-decoration: none; background-color: #29b564; }
