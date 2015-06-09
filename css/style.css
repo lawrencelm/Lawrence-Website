@@ -70,7 +70,7 @@
 		transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 	}
 
-	#press a {
+	#press a, #one a, #two a, #work a {
 		color: #7f8c8d;
 	}
 

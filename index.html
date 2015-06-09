@@ -36,9 +36,21 @@ xmlns:fb="http://ogp.me/ns/fb#">
 	<script src="http://responsivevoice.org/responsivevoice/responsivevoice.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/1.6.0/annyang.min.js"></script>
 
+	<!-- Parse for backend/Larry Bot's memory -->
+    <script src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+
 </head>
 
 <body>
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  	var js, fjs = d.getElementsByTagName(s)[0];
+  	if (d.getElementById(id)) return;
+  	js = d.createElement(s); js.id = id;
+  	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=436046413208222";
+  	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<script src="js/ebayAPIHandler.js"></script>
 	<script src="js/flickrAPIHandler.js"></script>
@@ -80,7 +92,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 		<header>
 			<h2>Who I Am</h2>
 		</header>
-		<p>Stanford ’17 | Co-founder of OneTune.fm and CS+Social Good | Software Engineering Intern at Apple Inc. | Computer Science student with focus on Artificial Intelligence and minor in Electrical Engineering | Pacifist | Amateur artist | Dreamer</p>
+		<p>Stanford ’17 | Co-founder of <a href="http://onetune.fm" target="_blank">OneTune.fm</a> | President and Co-founder of <a href="http://www.cs4good.org/" target="_blank">CS+Social Good</a> | Software Engineering Intern at Apple Inc. | Computer Science student with focus on Artificial Intelligence and minor in Electrical Engineering | Pacifist | Amateur artist | Dreamer</p>
 	</div>
 	<a href="#two" class="button style2 down anchored">Next</a>
 </section>
